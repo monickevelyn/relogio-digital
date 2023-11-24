@@ -1,0 +1,13 @@
+#data {
+    width: 180px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#dia, #mes, #ano {
+    font-size: 22px;
+    letter-spacing: 2px;
+}

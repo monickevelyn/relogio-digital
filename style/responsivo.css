@@ -1,0 +1,39 @@
+@media (max-width: 700px) {
+    #horario {
+        width: 650px;
+        height: 230px;     
+    }
+
+    #horario div {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 650px) {
+    #horario {
+        width: 550px;
+        height: 200px;   
+    }
+
+    #horario div {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+@media (max-width: 550px) {
+    #horario {
+        width: 450px;
+        height: 180px;   
+    }
+
+    #horario div {
+        width: 140px;
+        height: 140px;
+    }
+
+    #horas, #minutos, #segundos {
+        font-size: 45px;
+    }
+}
